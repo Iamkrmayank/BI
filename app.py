@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from neon import create_table, insert_data, fetch_all_data
+#from neon import create_table, insert_data, fetch_all_data
+import neon
 from llm import validate_data
 
 st.title("📄 LLM Data Verification System")
